@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Banner</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="bundle.css">
+    <meta name="ad.size" content="width=300,height=250">
+  </head>
+
+  <body>
+    <script>
+        var clickTag = "#";
+      </script>
+
+    <div id="backup" onclick="window.open(window.clickTag || window.clickTag)"></div>
+    <div id="ad_content" class="invisiblea">
+      <!-- Ad content goes here -->
+      <div id="logos">
+        <div id="logo_black" class="center-middle sprite-svg logo_black"></div>
+        <div id="logo_white" class="center-middle sprite-svg logo_white invisible"></div>
+      </div>
+
+      <div id="img01" class="sprite-jpg img01"></div>
+      <div id="img02" class="sprite-jpg img02 invisible"></div>
+      <div id="img03" class="sprite-jpg img03 invisible"></div>
+      <div id="img04" class="sprite-jpg img04 invisible"></div>
+
+
+
+      <div id="force" class="sprite-svg force invisible"></div>
+
+      <div id="cta_container" class="invisible">
+        <div id="cta_over" class="sprite-svg cta_over"></div>
+        <div id="cta" class="sprite-svg cta"></div>
+      </div>
+
+      <!-- <div id="stripe-top" class="stripe gpu"></div> -->
+      <div id="stripe-bottom" class="stripe gpu"></div>
+
+    </div>
+
+    <!--[if !IE]><!-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="bundle.js"></script>
+    <!--<![endif]-->
+    <!--[if IE]>
+      <script>
+        document.getElementById('backup').className = 'backup'; // IE9 or below
+      </script>
+      <![endif]-->
+  </body>
+
+</html>
